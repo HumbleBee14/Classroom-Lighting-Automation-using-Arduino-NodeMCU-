@@ -58,7 +58,6 @@ void handle_NotFound(){
 }
 
 //meta http-equiv=\"refresh\" content=\"2\"  is used to AUTO REFRESH PAGE after 2 seconds
-//Source: https://lastminuteengineers.com/bme280-esp8266-weather-station/
 
 String SendHTML(int temperature,int humidity,int pressure,int altitude){
   String ptr = "<!DOCTYPE html> <html>\n";
